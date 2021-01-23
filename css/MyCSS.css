@@ -25,3 +25,82 @@ body {
 figure.effect-oscar h2 {
     color: #d5bb98;
 }
+
+/*the class i choose*/
+#filters ul li a:hover h5, #filters ul li a.active h5 {
+    background: #a8baa2;
+    color: #66676c;
+    text-decoration: none;
+    border: #79839c solid 1px;
+}
+/*yet choose*/
+#filters ul li a h5{
+    border: #C2C2C2 solid 1px;
+    color: #a8baa2;
+}
+.timeline .date-title span {
+    color: #66676c;
+    background: #a8baa2;
+}
+.timeline:before{
+    border-right: 1px solid #d89c9b;
+}
+/*word background*/
+.news-item.right .news-content {
+    margin: 20px 0 0 30px;
+    box-shadow: 5px 5px 0 rgb(0 0 0 / 8%);
+}
+/*word*/
+.news-item .news-content {
+    background: #b9ceb285;
+}
+/*dot*/
+.news-item .news-content:before{
+    background: #8bbfeb;
+}
+/*word hover*/
+.news-item:hover .news-content {
+    background: #9ab7bc;
+    color:#fff;
+}
+/*hover triangle*/
+.news-item:hover .news-content:after {
+    border-left-color: #9ab7bc;
+}
+.news-item.right:hover .news-content:after {
+    border-left-color:transparent;
+    border-right-color: #9ab7bc;
+}
+
+.news-content .date{
+    color: #66676c;
+}
+/*word wishes*/
+.news-content .news-title{
+    color: #707584;
+}
+.news-content:hover .news-title{
+    color:#ffffff;
+}
+.timeline:after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    left: 1px;
+    bottom: -105px;
+}
+/*footer*/
+.footer_wrapper {
+    background: #a8baa2;
+}
+.footer_bottom span{
+    color: #66676c;
+}
+.footer_bottom span a{
+    color: #c7c7e3;
+}
+.footer_bottom{
+    padding: 25px 0;
+}
