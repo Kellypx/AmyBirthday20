@@ -1,0 +1,27 @@
+.caption h2 {
+    text-align: left;
+    color: #e9e1cf;
+}
+#header_wrapper {
+    background: #a8baa2;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #66676c;
+}
+h2 {
+    color: #66676c;
+}
+.section-title h2 {
+    color: #66676c;
+}
+h3 {
+    color: #79839c;
+}
+body {
+    color: #79839c;
+}
+figure.effect-oscar h2 {
+    color: #d5bb98;
+}
