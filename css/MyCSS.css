@@ -23,6 +23,9 @@ h2 {
 .section-title h2 {
     color: #66676c;
 }
+.col-md-6 p{
+    font-size:2rem;
+}
 h3 {
     color: #79839c;
 }
@@ -89,15 +92,7 @@ figure.effect-oscar h2 {
 .news-content:hover .news-title{
     color:#ffffff;
 }
-.timeline:after {
-    display: block;
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 100px;
-    left: 1px;
-    bottom: -105px;
-}
+
 /*footer*/
 .footer_wrapper {
     background: #a8baa2;
@@ -107,7 +102,4 @@ figure.effect-oscar h2 {
 }
 .footer_bottom span a{
     color: #c7c7e3;
-}
-.footer_bottom{
-    padding: 25px 0;
 }
