@@ -1384,11 +1384,6 @@ transition: all .3s;
     background: #000000;
 }
 
-.footer_bottom {
-    border-top: 1px solid #3C3A3A;
-    padding: 25px 0;
-}
-
 .footer_bottom span {
     display: block;
     font-size: 14px;
