@@ -5,6 +5,13 @@
 #header_wrapper {
     background: #a8baa2;
 }
+.carousel-indicators .active {
+    background-color: #e9e1cf;
+}
+.carousel-indicators li {
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #e9e1cf;
+}
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
